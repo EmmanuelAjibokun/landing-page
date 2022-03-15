@@ -16,11 +16,11 @@ header {
     flex-shrink: 0;
 }
 
-.container {
+header .container {
     display: flex;
     flex-direction: column;
     width: 700px;
-    height: 250px;
+    height: 270px;
     flex-shrink: 0;
     flex-wrap: nowrap;
     justify-content: start;
@@ -58,7 +58,6 @@ header {
 }
 
 h1 {
-    font-weight: 48px;
     font-weight: 900;
     color: #f9faf8;
     margin: 0px;
@@ -107,3 +106,117 @@ button {
     box-sizing: border-box;
 }
 
+.upper-middle {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+.upper-middle .h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.upper-middle .container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.upper-middle img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+}
+
+.upper-middle p {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.upper-middle a {
+    color: black;
+}
+
+.upper-middle a:hover {
+    color: #3882f6;
+}
+
+.middle-middle {
+    background-color: #e5e7eb;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    font-size: 20px;
+}
+.quote p {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.lower-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.lower-middle .container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 70px;
+}
+
+.lower-middle p {
+    margin: 0px;
+}
+
+.lower-middle button {
+    background: #3882f6;
+    border: 1.5px solid white;
+    margin-left: 80px;
+    font-size: 10px;
+}
+
+.lower-middle .p2 {
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
